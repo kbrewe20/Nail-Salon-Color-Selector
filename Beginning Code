@@ -1,0 +1,40 @@
+#This code will select and create any color in the nail salon. 
+#Once this color is selected, a machine will create the nail product so that the client is able to have it on their nails
+
+def menu():
+  print (" Press start: To start the program ")
+  print (" Press 1: To select a color anywhere in the nail salon ")
+  
+  #The color can also be selected from a smart phone
+  #For example, if a client likes a color that they have found on their phone, they can use it
+   
+  print (" Press 2: To create a name for the color and to add it to the inventory ")
+  print (" Press 3: To look at the gallery of previous colors create to prevent overflow of the same color ")
+  print (" Press Q: To quit the program and cancel the color production
+
+run = menu()
+#while true loop to run while selecting nail salon colors
+
+While True: 
+  if run == "1":
+  addStock = input (" Add or create new salon nail color ")
+  run == menu()
+  
+  elif run == "2":
+    for key, value in color inventory
+    print (" Suggested name for new color ")
+    run == menu 
+    
+    
+  elif run == "3":
+    when() color is create
+    print ("name of color")
+    run == menu()
+    
+    
+ elif run == "Q": 
+ break 
+ 
+ #print to end program 
+ print("The program has ended")
+ 
